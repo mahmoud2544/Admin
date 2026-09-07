@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/render"
+    },
+    {
+      "source": "/Images/:path*",
+      "destination": "/api/images?path=:path*"
+    }
+  ]
+}
